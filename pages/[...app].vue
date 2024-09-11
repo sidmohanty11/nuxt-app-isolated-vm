@@ -15,7 +15,7 @@ const { data: content } = await useAsyncData("builderData", () =>
     model,
     apiKey,
     userAttributes: {
-      urlPath: route.path,
+      urlPath: "/data-symbols",
     },
   })
 );
