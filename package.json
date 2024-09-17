@@ -10,7 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@builder.io/sdk-vue": "2.0.14-2",
+    "@builder.io/sdk-vue": "2.0.14-3",
     "nuxt": "^3.13.0",
     "vue": "latest",
     "vue-router": "latest"
