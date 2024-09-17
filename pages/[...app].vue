@@ -1,10 +1,14 @@
-<!-- pages/[...app].vue -->
-
 <script setup>
 import { Content, fetchOneEntry, isPreviewing } from "@builder.io/sdk-vue";
 import { ref } from "vue";
 
 const route = useRoute();
+
+// if (import.meta.server) {
+//   const initializeNodeRuntime = (await import("@builder.io/sdk-vue/node/init"))
+//     .initializeNodeRuntime;
+//   initializeNodeRuntime();
+// }
 
 const apiKey = "ad30f9a246614faaa6a03374f83554c9";
 const canShowContent = ref(false);
