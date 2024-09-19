@@ -4,4 +4,12 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["@builder.io/sdk-vue/nuxt"],
   plugins: ["@/plugins/builder-init"],
+  // vite: {
+  //   optimizeDeps: {
+  //     exclude: ["@builder.io/sdk-vue/node/init"],
+  //   },
+  // },
+  // build: {
+  //   transpile: ["@builder.io/sdk-vue"],
+  // },
 });

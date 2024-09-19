@@ -5,8 +5,8 @@ export default defineNuxtPlugin((nuxtApp) => {
     }
     console.warn(msg, vm, trace);
   };
-  if (process.server || import.meta.server) {
-    console.log("here");
+  // correctly initialize Isolated VM
+  if (import.meta.server) {
     async function importIsolatedVM() {
       const { initializeNodeRuntime } = await import(
         "@builder.io/sdk-vue/node/init"
