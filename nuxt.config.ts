@@ -10,7 +10,6 @@ export default defineNuxtConfig({
         initializeNodeRuntime: false,
       },
     ],
-    // "@/modules/test-module",
   ],
   // plugins: ["@/plugins/builder-init"],
   // vite: {
