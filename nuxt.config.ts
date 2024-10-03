@@ -7,7 +7,7 @@ export default defineNuxtConfig({
       "@builder.io/sdk-vue/nuxt",
       {
         includeCompiledCss: true,
-        initializeNodeRuntime: false,
+        initializeNodeRuntime: true,
       },
     ],
   ],
