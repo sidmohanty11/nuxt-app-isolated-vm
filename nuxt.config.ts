@@ -11,7 +11,7 @@ export default defineNuxtConfig({
   //     },
   //   ],
   // ],
-  // plugins: ["@/plugins/builder-init"],
+  // plugins: ["@builder.io/sdk-vue/nuxt-initialize-node-runtime-plugin"],
   // vite: {
   //   optimizeDeps: {
   //     exclude: ["@builder.io/sdk-vue/node/init"],
