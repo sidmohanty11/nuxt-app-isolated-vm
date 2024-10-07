@@ -1,11 +1,11 @@
 <script setup>
 import { Content, fetchOneEntry, isPreviewing } from "@builder.io/sdk-vue";
-// if (process.server || import.meta.server) {
-//   const { initializeNodeRuntime } = await import(
-//     "@builder.io/sdk-vue/node/init"
-//   );
-//   initializeNodeRuntime();
-// }
+if (process.server || import.meta.server) {
+  const { initializeNodeRuntime } = await import(
+    "@builder.io/sdk-vue/node/init"
+  );
+  initializeNodeRuntime();
+}
 
 import { ref } from "vue";
 
